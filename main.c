@@ -10,9 +10,9 @@ int main()
 
     while(1)
     {
-	printf("\t\t\t\t\t+---------------------------+\n");
+	    printf("\t\t\t\t\t+---------------------------+\n");
         printf("\t\t\t\t\t|*** STUDENT RECORD MENU ***|\n");
-	printf("\t\t\t\t\t+---------------------------|\n");
+	    printf("\t\t\t\t\t+---------------------------|\n");
         printf("\t\t\t\t\t|A/a : Add New Record       |\n");
         printf("\t\t\t\t\t|D/d : Delete A Record      |\n");
         printf("\t\t\t\t\t|S/s : Show the List        |\n");
@@ -22,7 +22,7 @@ int main()
         printf("\t\t\t\t\t|L/l : Delete All Records   |\n");
         printf("\t\t\t\t\t|R/r : Reverse the List     |\n");
         printf("\t\t\t\t\t|E/e : Exit                 |\n");
-	printf("\t\t\t\t\t+---------------------------+\n");
+	    printf("\t\t\t\t\t+---------------------------+\n");
         printf("\nEnter Your Choice: ");
         scanf(" %c", &op);
 
